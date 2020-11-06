@@ -29,4 +29,12 @@
 **Lenguaje ensamblador:** es un lenguaje de bajo nivel que permite un control directo de la CPU y todos los elementos asociados. Cada línea de un programa ensamblador consta de una instrucción del procesador y la posición que ocupan los datos de esa instrucción.
 
 ## Esquema de almacenamiento
-El procesador es Bi-Endian, quiere decir que es configurable entre Big Endian y Little Endian. Aunque nuestro sistema operativo nos limita a Little Endian. Por tanto la regla que sigue es “el byte menos significativo ocupa la posición más baja”. Cuando escribimos un dato en una posición de memoria, dependiendo de si es byte, half word o word,... se ubica en memoria según el esquema de la figura 1.2.
+El procesador es Bi-Endian, quiere decir que es configurable entre Big Endian y Little Endian. Aunque nuestro sistema operativo nos limita a Little Endian. Por tanto la regla que sigue es “el byte menos significativo ocupa la posición más baja”. Cuando escribimos un dato en una posición de memoria, dependiendo de si es byte, half word o word,... se ubica en memoria según el esquema de la figura 1.2.<br>
+<img src="https://raw.githubusercontent.com/EduardoWhite/Interfaz/main/Captura.PNG"><br>
+## Aspecto de un programa en ensamblador
+En la siguiete imagen se muestra el código de la primera práctica que probaremos. En el código hay una serie de elementos que aparecerán en todos los programas y que estudiaremos a continuación.<br>
+
+
+
+
+
